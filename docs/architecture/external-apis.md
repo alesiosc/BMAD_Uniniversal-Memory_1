@@ -1,0 +1,2 @@
+# External APIs
+Based on the Product Requirements Document, this is a strictly local-first application. The core functionality of the MVP does not depend on any external, third-party APIs for its operation. All data capture, processing, and storage happens on the user's machine. Therefore, this section is not applicable for the MVP.

@@ -1,0 +1,25 @@
+2025-07-29 17:13:37,762 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-07-29 17:13:37,762 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-07-29 17:13:37,762 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-07-29 17:13:37,762 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-07-29 17:13:37,762 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-07-29 17:13:37,762 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-07-29 17:13:37,762 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-07-29 17:13:37,762 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-07-29 17:13:37,824 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-07-29 17:13:37,824 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-07-29 17:13:37,824 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-07-29 17:13:37,825 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-07-29 17:13:37,833 - logger - INFO - Setting up connections...
+2025-07-29 17:13:37,833 - logger - INFO - Setting up connections...
+2025-07-29 17:13:37,839 - logger - INFO - Creating tool for connection: mysql
+2025-07-29 17:13:37,839 - logger - INFO - Creating tool for connection: mysql
+2025-07-29 17:13:37,840 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-07-29 17:13:37,840 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-07-29 17:13:37,840 - logger - ERROR - Failed to connect to mysql
+2025-07-29 17:13:37,840 - logger - ERROR - Failed to connect to mysql
+2025-07-29 17:13:38,013 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-07-29 17:13:38,016 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x00000186076CEE90>
+2025-07-29 17:13:38,016 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-07-29 17:13:38,017 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-07-29 17:13:38,017 - mcp.server.lowlevel.server - DEBUG - Response sent

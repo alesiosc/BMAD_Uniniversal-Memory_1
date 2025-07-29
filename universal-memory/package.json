@@ -1,0 +1,16 @@
+{
+  "name": "universal-memory",
+  "version": "1.0.0",
+  "description": "A local-first, privacy-focused universal memory layer for AI interactions.",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run tauri dev --workspace=apps/desktop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
