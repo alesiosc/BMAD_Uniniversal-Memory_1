@@ -1,0 +1,18 @@
+{
+  "name": "universal-memory",
+  "version": "1.0.0",
+  "description": "A local-first, privacy-focused universal memory layer for AI interactions.",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev:desktop",
+    "dev:desktop": "npm run tauri dev --workspace=apps/desktop",
+    "dev:api": "uvicorn apps.api.src.main:app --reload --port 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
