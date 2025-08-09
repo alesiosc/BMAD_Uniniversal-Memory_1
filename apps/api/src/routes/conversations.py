@@ -1,29 +1,21 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from chromadb import Client as ChromaClient
 from typing import List
 
-from ..models.conversation import Conversation as ConversationModel, SearchQuery
-from ..db.session import get_db, get_chroma_client
-from ..db.repository import ConversationRepository
+from models.conversation import Conversation as ConversationModel
+from db.session import get_db, get_chroma_client
+from db.repository import ConversationRepository
 
 router = APIRouter()
 repo = ConversationRepository()
 
-# (create_conversation, read_conversations, read_conversation, search_conversations endpoints remain the same)
+# ... (all other routes will be added in later stories)
 
-@router.delete("/conversations/{conversation_id}", status_code=status.HTTP_204_NO_CONTENT)
-async def delete_conversation(
-    conversation_id: str,
-    db: Session = Depends(get_db),
-    chroma_client: ChromaClient = Depends(get_chroma_client)
-):
+@router.get("/conversations", response_model=List[ConversationModel])
+async def read_conversations(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     """
-    Deletes a conversation by its ID.
+    Retrieve all conversation metadata.
     """
-    deleted_conversation = repo.delete_conversation_by_id(
-        db=db, chroma_client=chroma_client, conversation_id=conversation_id
-    )
-    if deleted_conversation is None:
-        raise HTTPException(status_code=404, detail="Conversation not found")
-    return
+    conversations = repo.get_all_conversations(db=db, skip=skip, limit=limit)
+    return conversations

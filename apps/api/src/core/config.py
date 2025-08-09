@@ -1,9 +1,9 @@
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    EMBEDDING_MODEL: str = "all-MiniLM-L6-v2"
+    GOOGLE_API_KEY: str
 
     class Config:
-        env_file = ".env"
+        env_file = "apps/api/.env"
 
 settings = Settings()

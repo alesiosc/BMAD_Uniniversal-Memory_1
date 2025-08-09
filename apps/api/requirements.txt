@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+duckdb
+google-generativeai
+python-dotenv
+pydantic-settings

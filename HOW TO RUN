@@ -1,0 +1,120 @@
+
+-----
+
+# How to Run This Project (Corrected)
+
+This document provides the final, working instructions to set up the development environment and run the Universal Memory application, incorporating fixes for common Windows-related issues.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+  * **Node.js and npm**: A recent LTS version is recommended.
+  * **Python**: The project was developed with Python 3.11+.
+  * **Git**: For version control.
+
+## Step 1: One-Time Project Setup
+
+This step only needs to be done once to get the project ready.
+
+### 1.1 - Create and Activate Python Virtual Environment
+
+This keeps your Python packages clean and isolated.
+
+# \==================== **Command 1 of 6**
+
+```powershell
+# Navigate to the project root folder
+cd path\to\your\universal-memory
+```
+
+\====================
+
+# \==================== **Command 2 of 6**
+
+```powershell
+# Create the virtual environment
+py -3.11 -m venv my_python_3_11_env; .\my_python_3_11_env\Scripts\python.exe -m pip install --upgrade pip
+```
+
+\====================
+
+# \==================== **Command 3 of 6**
+
+```powershell
+# Activate the virtual environment
+.\my_python_3_11_env\Scripts\activate
+```
+
+\====================
+*(Your terminal prompt should now start with `(venv)`)*
+
+### 1.2 - Install All Dependencies
+
+With the virtual environment active, install all packages for both the backend and frontend.
+
+# \==================== **Command 4 of 6**
+
+```bash
+# Install Python (Backend) Dependencies from the project root
+pip install -r apps/api/requirements.txt #===SHOULDN'T NEED TO INSTALL===#
+```
+
+\====================
+
+# \==================== **Command 5 of 6**
+
+```bash
+# Install Node.js (Frontend) Dependencies directly in the desktop app folder
+npm install --prefix apps/desktop
+```
+
+\====================
+
+# \==================== **Command 6 of 6**
+
+```bash
+# Install Tauri CLI tools needed to run the app
+npm install -D @tauri-apps/cli --prefix apps/desktop
+```
+
+\====================
+
+## Step 2: Running the Application
+
+Because we disabled workspaces to fix system errors, the backend and frontend must be run in **two separate terminals**.
+
+### 2.1 - Start the Backend Server (Terminal 1)
+
+1.  Open your first terminal in the project's root folder.
+2.  Make sure your Python virtual environment is active (`(venv)` should be visible).
+3.  Run the backend server:
+
+# \==================== **Backend Start Command**
+
+```bash
+npm run dev:api
+```
+
+\====================
+*You should see output confirming the server is running on `http://127.0.0.1:8000`. Leave this terminal running.*
+
+### 2.2 - Start the Frontend Application (Terminal 2)
+
+1.  Open a **new, second terminal** in VS Code (`Terminal > New Terminal`).
+2.  Navigate to the project's root folder.
+3.  Run the frontend application:
+
+# \==================== **Frontend Start Command**
+
+```bash
+npm run dev:desktop
+```
+
+\====================
+*This will build and launch the Tauri application window, which will connect to the backend.*
+
+## How to Stop the Application
+
+1.  Close the Tauri application window.
+2.  In each of your two terminals, press **`Ctrl + C`** to stop the running processes.

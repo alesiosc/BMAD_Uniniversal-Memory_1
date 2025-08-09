@@ -2,10 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useConversationStore } from '../../stores/conversationStore';
 import { ConversationTurn } from 'shared-types';
-
-const formatTimestamp = (timestamp: number): string => {
-  return new Date(timestamp * 1000).toLocaleString();
-};
+import { formatTimestamp } from '../../utils/date';
 
 const Turn: React.FC<{ turn: ConversationTurn }> = ({ turn }) => {
   const isUser = turn.speaker === 'user';

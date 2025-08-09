@@ -1,0 +1,61 @@
+==============================
+Step 2: ADD YOUR PROJECT FILES
+==============================
+Using your computer's file explorer, find the project folder where you have been saving all 68 of our files.
+
+Copy all the contents from that folder (the docs, apps, packages folders, the package.json file, etc.).
+
+Paste all of those files and folders directly into the new universal-memory folder that VS Code just created and opened.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+===========================
+Part 2: COMITTING YOUR WORK
+===========================
+Now that your files are in the correct, Git-connected folder, you can commit them to GitHub.
+
+Step 1: Open the Source Control Panel
+
+On the far left side of your VS Code window, click on the icon that looks like three dots connected by lines (a branching symbol). This is the Source Control panel.
+
+Step 2: Stage Your Changes
+
+You will see a long list of all the new files you just pasted, under a "Changes" section.
+
+Hover your mouse over the "Changes" title, and a + (plus) icon will appear. Click this + icon to "stage" all the files. This prepares all of them for the commit.
+
+Step 3: Write the Commit Message
+
+At the very top of the Source Control panel, you will see a text box for the commit message.
+
+Click in this box and type a clear message describing this commit. A good message would be:
+feat: Initial commit of all planning and source files for MVP
+
+Step 4: Commit and Push
+
+Click the "Commit" button (it might be a checkmark icon).
+
+After the commit is complete, the button will change to "Sync Changes". Click this button.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+=====================================
+Part 1: INITIAL SETUP (One-Time Only)
+=====================================
+First, we need to connect your local project folder to the remote GitHub repository. The cleanest way to do this is by "cloning" the empty repository from GitHub first.
+
+Step 1: Clone the Repository from GitHub
+
+Open VS Code. If your universal-memory project is already open, close it for now using File > Close Folder.
+
+Open the Command Palette by pressing Ctrl+Shift+P (or Cmd+Shift+P on Mac).
+
+In the Command Palette, type Git: Clone and press Enter.
+
+A box will appear at the top. Paste the repository URL you provided:
+https://github.com/alesiosc/universal-memory.git
+
+Press Enter. VS Code will then ask you where to save the project on your computer. Choose a location (e.g., your Desktop or a projects folder).
+
+Once it's finished cloning, VS Code will ask if you want to open the cloned repository. Click "Open".
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

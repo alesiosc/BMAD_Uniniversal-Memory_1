@@ -1,9 +1,7 @@
 import uuid
-import json
 from sqlalchemy.orm import Session
-from sqlalchemy import desc
 from chromadb import Client as ChromaClient
-from ..models.conversation import Conversation as ConversationModel
+from models.conversation import Conversation as ConversationModel
 from .session import Conversation as ConversationSchema
 
 class ConversationRepository:

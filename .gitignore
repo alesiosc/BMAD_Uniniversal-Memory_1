@@ -1,0 +1,19 @@
+# Parquet data files
+*.parquet
+
+# Python virtual environment
+my_python_3_11_env/
+
+# Environment variables
+apps/api/.env
+
+# Node.js dependencies
+node_modules/
+
+# Tauri build artifacts
+apps/desktop/src-tauri/target/
+apps/desktop/src-tauri/Cargo.lock
+
+# General OS files
+.DS_Store
+Thumbs.db

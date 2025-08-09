@@ -1,0 +1,16 @@
+# Coding Standards
+
+### Critical Fullstack Rules
+* **Type Sharing:** All TypeScript types (like the Conversation interface) that are used by both the frontend and backend must be defined in the packages/shared-types/ directory and imported from there. Never duplicate types.
+* **API Service Layer:** The React frontend must never make direct fetch calls from within a component. All API communication must be handled through the dedicated functions in the src/services/ layer.
+* **Configuration Access:** Never access configuration or environment variables directly. Use dedicated configuration modules to provide these values to the application.
+* **Error Handling:** All API routes in the Python backend must use a standardized error handler to ensure consistent error response formats.
+
+### Naming Conventions
+
+| Element | Frontend | Backend | Example |
+| :--- | :--- | :--- | :--- |
+| Components | PascalCase | - | `MemoryFeed.tsx` |
+| Hooks | camelCase with 'use' | - | `useSearch.ts` |
+| API Routes | - | kebab-case | `/api/conversations` |
+| Database Tables | - | snake\_case | `conversations` |

@@ -11,6 +11,7 @@ interface ConversationState {
   fetchConversationById: (id: string) => Promise<void>;
   performSearch: (query: string) => Promise<void>;
   deleteConversation: (id: string) => Promise<void>;
+  addConversation: (conversationData: Omit<Conversation, 'id'>) => Promise<void>;
 }
 
 export const useConversationStore = create<ConversationState>((set, get) => ({
@@ -58,8 +59,16 @@ export const useConversationStore = create<ConversationState>((set, get) => ({
       }));
     } catch (error) {
       console.error(`Failed to delete conversation ${id}:`, error);
-      // In a real app, we would show a notification to the user
-      throw error; // Re-throw to let the component know it failed
+      throw error;
+    }
+  },
+  addConversation: async (conversationData) => {
+    try {
+      await conversationService.add(conversationData);
+      await get().fetchConversations();
+    } catch (error) {
+      console.error("Failed to add conversation:", error);
+      throw error;
     }
   },
 }));

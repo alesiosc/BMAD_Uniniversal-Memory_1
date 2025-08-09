@@ -1,0 +1,39 @@
+[
+  {
+    "name": "GPT-4 (via ChatGPT)",
+    "pros": [
+      "Excellent reasoning and instruction-following.",
+      "Strong performance on creative and complex tasks.",
+      "Large context window."
+    ],
+    "cons": [
+      "Can be slower than other models.",
+      "Free version has usage limits.",
+      "Knowledge cutoff is not always the most recent."
+    ]
+  },
+  {
+    "name": "Claude 3 Sonnet",
+    "pros": [
+      "Very fast response times.",
+      "Strong performance for its speed class.",
+      "Good at summarizing and understanding large documents."
+    ],
+    "cons": [
+      "May occasionally refuse to answer safe prompts.",
+      "Less capable of complex, multi-step reasoning than top-tier models."
+    ]
+  },
+  {
+    "name": "Gemini Pro",
+    "pros": [
+      "Tightly integrated with Google's ecosystem.",
+      "Strong multilingual capabilities.",
+      "Generally fast and reliable for a wide range of tasks."
+    ],
+    "cons": [
+      "Can sometimes be overly verbose.",
+      "Performance can vary on highly nuanced or creative tasks."
+    ]
+  }
+]
