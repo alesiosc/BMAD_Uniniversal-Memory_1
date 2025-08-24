@@ -6,7 +6,6 @@ import { formatTimestamp } from '../../utils/date';
 
 const MemoryItem: React.FC<{ conversation: Conversation }> = ({ conversation }) => {
   const previewText = conversation.content[0]?.text.substring(0, 100) || 'No content';
-
   return (
     <Link to={`/conversation/${conversation.id}`} className="block">
       <div className="bg-gray-800 p-4 rounded-lg mb-4 border border-gray-700 hover:bg-gray-700 transition-colors">
@@ -32,13 +31,12 @@ export const MemoryFeed: React.FC = () => {
   if (isLoading && itemsToDisplay.length === 0) {
     return <div className="text-white text-center p-4">Loading...</div>;
   }
-  
-  if (itemsToDisplay.length === 0) {
-      return <div className="text-white text-center p-4">
-          {hasSearchResults ? "No results found." : "No memories captured yet."}
-      </div>;
-  }
 
+  if (itemsToDisplay.length === 0) {
+    return <div className="text-white text-center p-4">
+      {hasSearchResults ? "No results found." : "No memories captured yet."}
+    </div>;
+  }
 
   return (
     <div className="h-full overflow-y-auto p-4">

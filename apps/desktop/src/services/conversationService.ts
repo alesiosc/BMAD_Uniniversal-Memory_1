@@ -1,4 +1,6 @@
-import { Conversation } from 'shared-types';
+import { Conversation, SearchResult } from 'shared-types';
+import { conversationService } from './conversationService';
+import { get } from 'lodash';
 
 const apiClient = {
   async get(endpoint: string) {
@@ -8,19 +10,19 @@ const apiClient = {
   },
   async post(endpoint: string, body: any) {
     const response = await fetch(`http://127.0.0.1:8000${endpoint}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body),
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
     });
     if (!response.ok) throw new Error('Network response was not ok');
     return response.json();
   },
   async delete(endpoint: string) {
     const response = await fetch(`http://127.0.0.1:8000${endpoint}`, {
-        method: 'DELETE',
+      method: 'DELETE',
     });
     if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
     return;
   }
@@ -33,7 +35,7 @@ export const conversationService = {
   getById: async (id: string): Promise<Conversation> => {
     return apiClient.get(`/conversations/${id}`);
   },
-  search: async (query: string): Promise<Conversation[]> => {
+  search: async (query: string): Promise<SearchResult[]> => {
     return apiClient.post('/search', { query });
   },
   deleteById: async (id: string): Promise<void> => {

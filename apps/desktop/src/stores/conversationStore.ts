@@ -1,10 +1,11 @@
 import { create } from 'zustand';
-import { Conversation } from 'shared-types';
+import { Conversation, SearchResult } from 'shared-types';
 import { conversationService } from '../services/conversationService';
+import { get } from 'lodash';
 
 interface ConversationState {
   conversations: Conversation[];
-  searchResults: Conversation[];
+  searchResults: SearchResult[];
   selectedConversation: Conversation | null;
   isLoading: boolean;
   fetchConversations: () => Promise<void>;
@@ -19,6 +20,7 @@ export const useConversationStore = create<ConversationState>((set, get) => ({
   searchResults: [],
   selectedConversation: null,
   isLoading: false,
+
   fetchConversations: async () => {
     set({ isLoading: true });
     try {
@@ -29,6 +31,7 @@ export const useConversationStore = create<ConversationState>((set, get) => ({
       set({ isLoading: false });
     }
   },
+
   fetchConversationById: async (id: string) => {
     set({ isLoading: true, selectedConversation: null });
     try {
@@ -39,16 +42,18 @@ export const useConversationStore = create<ConversationState>((set, get) => ({
       set({ isLoading: false });
     }
   },
+
   performSearch: async (query: string) => {
     set({ isLoading: true });
     try {
-        const results = await conversationService.search(query);
-        set({ searchResults: results, isLoading: false });
+      const results = await conversationService.search(query);
+      set({ searchResults: results, isLoading: false });
     } catch (error) {
-        console.error(`Failed to perform search for "${query}":`, error);
-        set({ isLoading: false });
+      console.error(`Failed to perform search for "${query}":`, error);
+      set({ isLoading: false });
     }
   },
+
   deleteConversation: async (id: string) => {
     try {
       await conversationService.deleteById(id);
@@ -62,6 +67,7 @@ export const useConversationStore = create<ConversationState>((set, get) => ({
       throw error;
     }
   },
+
   addConversation: async (conversationData) => {
     try {
       await conversationService.add(conversationData);

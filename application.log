@@ -223,3 +223,678 @@
 2025-08-09 16:28:43,706 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-08-09 16:28:43,706 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
 2025-08-09 16:28:43,706 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 06:23:51,992 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 06:23:51,993 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 06:23:51,993 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 06:23:51,993 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 06:23:51,994 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 06:23:51,994 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 06:23:51,994 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 06:23:51,994 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 06:23:52,293 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 06:23:52,293 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 06:23:52,293 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 06:23:52,294 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 06:23:52,365 - logger - INFO - Setting up connections...
+2025-08-16 06:23:52,365 - logger - INFO - Setting up connections...
+2025-08-16 06:23:52,386 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 06:23:52,386 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 06:23:52,387 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 06:23:52,387 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 06:23:52,387 - logger - ERROR - Failed to connect to mysql
+2025-08-16 06:23:52,387 - logger - ERROR - Failed to connect to mysql
+2025-08-16 06:23:52,397 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 06:23:52,400 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000020354A17B10>
+2025-08-16 06:23:52,400 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 06:23:52,400 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 06:23:52,401 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 09:01:14,046 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 09:01:14,046 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 09:01:14,046 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 09:01:14,046 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 09:01:14,046 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 09:01:14,046 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 09:01:14,046 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 09:01:14,046 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 09:01:14,056 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 09:01:14,056 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 09:01:14,098 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 09:01:14,099 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 09:01:14,107 - logger - INFO - Setting up connections...
+2025-08-16 09:01:14,107 - logger - INFO - Setting up connections...
+2025-08-16 09:01:14,110 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 09:01:14,110 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 09:01:14,111 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 09:01:14,111 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 09:01:14,111 - logger - ERROR - Failed to connect to mysql
+2025-08-16 09:01:14,111 - logger - ERROR - Failed to connect to mysql
+2025-08-16 09:01:17,103 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 09:01:17,374 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F2D1E93750>
+2025-08-16 09:01:17,374 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 09:01:17,374 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 09:01:17,375 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 10:40:54,133 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 10:40:54,133 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 10:40:54,133 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 10:40:54,133 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 10:40:54,134 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 10:40:54,134 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 10:40:54,134 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 10:40:54,134 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 10:40:54,153 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 10:40:54,153 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 10:40:54,225 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 10:40:54,226 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 10:40:54,238 - logger - INFO - Setting up connections...
+2025-08-16 10:40:54,238 - logger - INFO - Setting up connections...
+2025-08-16 10:40:54,261 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 10:40:54,261 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 10:40:54,262 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 10:40:54,262 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 10:40:54,262 - logger - ERROR - Failed to connect to mysql
+2025-08-16 10:40:54,262 - logger - ERROR - Failed to connect to mysql
+2025-08-16 10:40:59,603 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 10:40:59,707 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000017E836F3750>
+2025-08-16 10:40:59,707 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 10:40:59,708 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 10:40:59,708 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 11:24:46,898 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 11:24:46,899 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 11:24:46,899 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 11:24:46,899 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 11:24:46,900 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 11:24:46,901 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 11:24:46,901 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 11:24:46,901 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 11:24:46,918 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 11:24:46,918 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 11:24:47,007 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 11:24:47,008 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 11:24:47,023 - logger - INFO - Setting up connections...
+2025-08-16 11:24:47,023 - logger - INFO - Setting up connections...
+2025-08-16 11:24:47,031 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 11:24:47,031 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 11:24:47,034 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 11:24:47,034 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 11:24:47,034 - logger - ERROR - Failed to connect to mysql
+2025-08-16 11:24:47,034 - logger - ERROR - Failed to connect to mysql
+2025-08-16 11:24:47,123 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 11:24:47,152 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000002B112E63750>
+2025-08-16 11:24:47,153 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 11:24:47,153 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 11:24:47,154 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 12:37:50,277 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 12:37:50,277 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 12:37:50,277 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 12:37:50,277 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 12:37:50,278 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 12:37:50,278 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 12:37:50,278 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 12:37:50,278 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 12:37:50,300 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 12:37:50,300 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 12:37:50,352 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 12:37:50,353 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 12:37:50,370 - logger - INFO - Setting up connections...
+2025-08-16 12:37:50,370 - logger - INFO - Setting up connections...
+2025-08-16 12:37:50,390 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 12:37:50,390 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 12:37:50,391 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 12:37:50,391 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 12:37:50,391 - logger - ERROR - Failed to connect to mysql
+2025-08-16 12:37:50,391 - logger - ERROR - Failed to connect to mysql
+2025-08-16 12:37:54,893 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 12:37:55,120 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000026A51193750>
+2025-08-16 12:37:55,121 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 12:37:55,121 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 12:37:55,121 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 12:46:47,786 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 12:46:47,787 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 12:46:47,787 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 12:46:47,787 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 12:46:47,787 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 12:46:47,787 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 12:46:47,787 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 12:46:47,787 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 12:46:47,814 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 12:46:47,814 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 12:46:47,876 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 12:46:47,877 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 12:46:47,893 - logger - INFO - Setting up connections...
+2025-08-16 12:46:47,893 - logger - INFO - Setting up connections...
+2025-08-16 12:46:47,920 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 12:46:47,920 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 12:46:47,922 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 12:46:47,922 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 12:46:47,922 - logger - ERROR - Failed to connect to mysql
+2025-08-16 12:46:47,922 - logger - ERROR - Failed to connect to mysql
+2025-08-16 12:46:52,068 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 12:46:52,147 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DB7CE33750>
+2025-08-16 12:46:52,148 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 12:46:52,148 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 12:46:52,148 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 13:15:02,327 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 13:15:02,328 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 13:15:02,328 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 13:15:02,328 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 13:15:02,328 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 13:15:02,329 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 13:15:02,329 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 13:15:02,329 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 13:15:02,352 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 13:15:02,352 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 13:15:02,421 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 13:15:02,423 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 13:15:02,443 - logger - INFO - Setting up connections...
+2025-08-16 13:15:02,443 - logger - INFO - Setting up connections...
+2025-08-16 13:15:02,470 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 13:15:02,470 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 13:15:02,472 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 13:15:02,472 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 13:15:02,472 - logger - ERROR - Failed to connect to mysql
+2025-08-16 13:15:02,472 - logger - ERROR - Failed to connect to mysql
+2025-08-16 13:15:09,542 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 13:15:09,644 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001A5415D3750>
+2025-08-16 13:15:09,644 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 13:15:09,644 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 13:15:09,645 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 13:20:48,891 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 13:20:48,892 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 13:20:48,892 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 13:20:48,892 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 13:20:48,892 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 13:20:48,892 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 13:20:48,892 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 13:20:48,892 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 13:20:48,953 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 13:20:48,953 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 13:20:49,032 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 13:20:49,033 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 13:20:49,052 - logger - INFO - Setting up connections...
+2025-08-16 13:20:49,052 - logger - INFO - Setting up connections...
+2025-08-16 13:20:49,093 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 13:20:49,093 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 13:20:49,096 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 13:20:49,096 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 13:20:49,096 - logger - ERROR - Failed to connect to mysql
+2025-08-16 13:20:49,096 - logger - ERROR - Failed to connect to mysql
+2025-08-16 13:20:49,132 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 13:20:49,187 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000002252D853750>
+2025-08-16 13:20:49,187 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 13:20:49,187 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 13:20:49,188 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 14:23:37,916 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 14:23:37,917 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 14:23:37,917 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 14:23:37,917 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 14:23:37,917 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 14:23:37,917 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 14:23:37,917 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 14:23:37,917 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 14:23:37,941 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 14:23:37,941 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 14:23:38,015 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 14:23:38,016 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 14:23:38,037 - logger - INFO - Setting up connections...
+2025-08-16 14:23:38,037 - logger - INFO - Setting up connections...
+2025-08-16 14:23:38,088 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 14:23:38,088 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 14:23:38,090 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 14:23:38,090 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 14:23:38,090 - logger - ERROR - Failed to connect to mysql
+2025-08-16 14:23:38,090 - logger - ERROR - Failed to connect to mysql
+2025-08-16 14:23:43,004 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 14:23:43,081 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000002957F753750>
+2025-08-16 14:23:43,081 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 14:23:43,081 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 14:23:43,082 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 14:44:52,110 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 14:44:52,111 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 14:44:52,111 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 14:44:52,111 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 14:44:52,112 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 14:44:52,112 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 14:44:52,112 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 14:44:52,112 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 14:44:52,143 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 14:44:52,143 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 14:44:52,210 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 14:44:52,211 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 14:44:52,229 - logger - INFO - Setting up connections...
+2025-08-16 14:44:52,229 - logger - INFO - Setting up connections...
+2025-08-16 14:44:52,259 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 14:44:52,259 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 14:44:52,260 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 14:44:52,260 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 14:44:52,260 - logger - ERROR - Failed to connect to mysql
+2025-08-16 14:44:52,260 - logger - ERROR - Failed to connect to mysql
+2025-08-16 14:44:53,242 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 14:44:53,443 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000026CCC223750>
+2025-08-16 14:44:53,443 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 14:44:53,443 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 14:44:53,444 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 15:52:03,706 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 15:52:03,707 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 15:52:03,707 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 15:52:03,707 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 15:52:03,707 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 15:52:03,707 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 15:52:03,707 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 15:52:03,707 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 15:52:03,731 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 15:52:03,731 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 15:52:03,795 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 15:52:03,796 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 15:52:03,814 - logger - INFO - Setting up connections...
+2025-08-16 15:52:03,814 - logger - INFO - Setting up connections...
+2025-08-16 15:52:03,842 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 15:52:03,842 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 15:52:03,844 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 15:52:03,844 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 15:52:03,844 - logger - ERROR - Failed to connect to mysql
+2025-08-16 15:52:03,844 - logger - ERROR - Failed to connect to mysql
+2025-08-16 15:52:12,764 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 15:52:12,854 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x00000278913B3750>
+2025-08-16 15:52:12,854 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 15:52:12,854 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 15:52:12,855 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 15:57:41,143 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 15:57:41,143 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 15:57:41,144 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 15:57:41,144 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 15:57:41,144 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 15:57:41,144 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 15:57:41,144 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 15:57:41,144 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 15:57:41,157 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 15:57:41,157 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 15:57:41,214 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 15:57:41,215 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 15:57:41,226 - logger - INFO - Setting up connections...
+2025-08-16 15:57:41,226 - logger - INFO - Setting up connections...
+2025-08-16 15:57:41,232 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 15:57:41,232 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 15:57:41,233 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 15:57:41,233 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 15:57:41,233 - logger - ERROR - Failed to connect to mysql
+2025-08-16 15:57:41,233 - logger - ERROR - Failed to connect to mysql
+2025-08-16 15:57:41,318 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 15:57:41,373 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x00000226B3503750>
+2025-08-16 15:57:41,373 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 15:57:41,373 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 15:57:41,374 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 16:08:46,636 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 16:08:46,637 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 16:08:46,637 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 16:08:46,637 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 16:08:46,637 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 16:08:46,637 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 16:08:46,637 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 16:08:46,637 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 16:08:46,653 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 16:08:46,653 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 16:08:46,695 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 16:08:46,696 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 16:08:46,709 - logger - INFO - Setting up connections...
+2025-08-16 16:08:46,709 - logger - INFO - Setting up connections...
+2025-08-16 16:08:46,727 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 16:08:46,727 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 16:08:46,728 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 16:08:46,728 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 16:08:46,728 - logger - ERROR - Failed to connect to mysql
+2025-08-16 16:08:46,728 - logger - ERROR - Failed to connect to mysql
+2025-08-16 16:08:52,406 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 16:09:02,706 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000024BFCFB3750>
+2025-08-16 16:09:02,706 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 16:09:02,706 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 16:09:02,707 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-16 16:22:54,429 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-16 16:22:54,430 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-16 16:22:54,430 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-16 16:22:54,430 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-16 16:22:54,430 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-16 16:22:54,430 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-16 16:22:54,430 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-16 16:22:54,430 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-16 16:22:54,449 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 16:22:54,449 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-16 16:22:54,494 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 16:22:54,495 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-16 16:22:54,509 - logger - INFO - Setting up connections...
+2025-08-16 16:22:54,509 - logger - INFO - Setting up connections...
+2025-08-16 16:22:54,526 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 16:22:54,526 - logger - INFO - Creating tool for connection: mysql
+2025-08-16 16:22:54,527 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 16:22:54,527 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-16 16:22:54,527 - logger - ERROR - Failed to connect to mysql
+2025-08-16 16:22:54,527 - logger - ERROR - Failed to connect to mysql
+2025-08-16 16:23:00,130 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-16 16:23:10,361 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000022C34D83750>
+2025-08-16 16:23:10,362 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-16 16:23:10,362 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-16 16:23:10,362 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-22 18:38:20,137 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-22 18:38:20,154 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-22 18:38:20,154 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-22 18:38:20,155 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-22 18:38:20,155 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-22 18:38:20,155 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-22 18:38:20,155 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-22 18:38:20,155 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-22 18:38:20,175 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-22 18:38:20,175 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-22 18:38:20,270 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-22 18:38:20,270 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-22 18:38:20,286 - logger - INFO - Setting up connections...
+2025-08-22 18:38:20,286 - logger - INFO - Setting up connections...
+2025-08-22 18:38:20,293 - logger - INFO - Creating tool for connection: mysql
+2025-08-22 18:38:20,293 - logger - INFO - Creating tool for connection: mysql
+2025-08-22 18:38:20,295 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-22 18:38:20,295 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-22 18:38:20,296 - logger - ERROR - Failed to connect to mysql
+2025-08-22 18:38:20,296 - logger - ERROR - Failed to connect to mysql
+2025-08-22 18:38:20,639 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-22 18:38:20,668 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001CCED183750>
+2025-08-22 18:38:20,668 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-22 18:38:20,668 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-22 18:38:20,669 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 09:11:36,755 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 09:11:36,777 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 09:11:36,777 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 09:11:36,777 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 09:11:36,777 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 09:11:36,777 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 09:11:36,777 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 09:11:36,777 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 09:11:36,884 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 09:11:36,884 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 09:11:36,884 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 09:11:36,885 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 09:11:36,938 - logger - INFO - Setting up connections...
+2025-08-23 09:11:36,938 - logger - INFO - Setting up connections...
+2025-08-23 09:11:36,955 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 09:11:36,955 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 09:11:36,956 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 09:11:36,956 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 09:11:36,956 - logger - ERROR - Failed to connect to mysql
+2025-08-23 09:11:36,956 - logger - ERROR - Failed to connect to mysql
+2025-08-23 09:11:36,963 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 09:11:36,964 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000022D8D4711D0>
+2025-08-23 09:11:36,965 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 09:11:36,965 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 09:11:36,965 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 09:44:43,071 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 09:44:43,072 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 09:44:43,072 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 09:44:43,072 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 09:44:43,072 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 09:44:43,072 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 09:44:43,072 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 09:44:43,072 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 09:44:43,092 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 09:44:43,092 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 09:44:43,193 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 09:44:43,194 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 09:44:43,208 - logger - INFO - Setting up connections...
+2025-08-23 09:44:43,208 - logger - INFO - Setting up connections...
+2025-08-23 09:44:43,216 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 09:44:43,216 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 09:44:43,217 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 09:44:43,217 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 09:44:43,217 - logger - ERROR - Failed to connect to mysql
+2025-08-23 09:44:43,217 - logger - ERROR - Failed to connect to mysql
+2025-08-23 09:44:43,253 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 09:44:43,264 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001FD01BF3750>
+2025-08-23 09:44:43,265 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 09:44:43,265 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 09:44:43,265 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 11:09:27,410 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 11:09:27,410 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 11:09:27,411 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 11:09:27,412 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 11:09:27,412 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 11:09:27,412 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 11:09:27,412 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 11:09:27,412 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 11:09:27,443 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 11:09:27,443 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 11:09:27,547 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 11:09:27,549 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 11:09:27,566 - logger - INFO - Setting up connections...
+2025-08-23 11:09:27,566 - logger - INFO - Setting up connections...
+2025-08-23 11:09:27,577 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 11:09:27,577 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 11:09:27,580 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 11:09:27,580 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 11:09:27,580 - logger - ERROR - Failed to connect to mysql
+2025-08-23 11:09:27,580 - logger - ERROR - Failed to connect to mysql
+2025-08-23 11:09:27,592 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 11:09:27,594 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F81F893750>
+2025-08-23 11:09:27,594 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 11:09:27,594 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 11:09:27,595 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 14:09:45,868 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 14:09:45,887 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 14:09:45,887 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 14:09:45,887 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 14:09:45,887 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 14:09:45,887 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 14:09:45,887 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 14:09:45,887 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 14:09:45,920 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 14:09:45,920 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 14:09:45,992 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 14:09:45,993 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 14:09:46,007 - logger - INFO - Setting up connections...
+2025-08-23 14:09:46,007 - logger - INFO - Setting up connections...
+2025-08-23 14:09:46,032 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 14:09:46,032 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 14:09:46,033 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 14:09:46,033 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 14:09:46,033 - logger - ERROR - Failed to connect to mysql
+2025-08-23 14:09:46,033 - logger - ERROR - Failed to connect to mysql
+2025-08-23 14:09:46,491 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 14:09:46,547 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000024FD5883890>
+2025-08-23 14:09:46,547 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 14:09:46,547 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 14:09:46,548 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 16:56:44,480 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 16:56:44,487 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 16:56:44,487 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 16:56:44,487 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 16:56:44,489 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 16:56:44,489 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 16:56:44,489 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 16:56:44,489 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 16:56:44,525 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 16:56:44,525 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 16:56:44,605 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 16:56:44,606 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 16:56:44,616 - logger - INFO - Setting up connections...
+2025-08-23 16:56:44,616 - logger - INFO - Setting up connections...
+2025-08-23 16:56:44,622 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 16:56:44,622 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 16:56:44,623 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 16:56:44,623 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 16:56:44,623 - logger - ERROR - Failed to connect to mysql
+2025-08-23 16:56:44,623 - logger - ERROR - Failed to connect to mysql
+2025-08-23 16:56:48,033 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 16:56:48,099 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001D8BB1B3750>
+2025-08-23 16:56:48,099 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 16:56:48,099 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 16:56:48,100 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 18:03:15,790 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 18:03:15,790 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 18:03:15,790 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 18:03:15,790 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 18:03:15,790 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 18:03:15,791 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 18:03:15,791 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 18:03:15,791 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 18:03:15,815 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 18:03:15,815 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 18:03:15,907 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 18:03:15,909 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 18:03:15,926 - logger - INFO - Setting up connections...
+2025-08-23 18:03:15,926 - logger - INFO - Setting up connections...
+2025-08-23 18:03:15,934 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 18:03:15,934 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 18:03:15,935 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 18:03:15,935 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 18:03:15,936 - logger - ERROR - Failed to connect to mysql
+2025-08-23 18:03:15,936 - logger - ERROR - Failed to connect to mysql
+2025-08-23 18:03:17,343 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 18:03:18,119 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000002400D8E3750>
+2025-08-23 18:03:18,119 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 18:03:18,119 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 18:03:18,120 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 18:09:15,471 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 18:09:15,471 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 18:09:15,472 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 18:09:15,472 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 18:09:15,472 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 18:09:15,472 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 18:09:15,472 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 18:09:15,472 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 18:09:15,487 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 18:09:15,487 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 18:09:15,603 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 18:09:15,604 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 18:09:15,613 - logger - INFO - Setting up connections...
+2025-08-23 18:09:15,613 - logger - INFO - Setting up connections...
+2025-08-23 18:09:15,625 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 18:09:15,625 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 18:09:15,626 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 18:09:15,626 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 18:09:15,626 - logger - ERROR - Failed to connect to mysql
+2025-08-23 18:09:15,626 - logger - ERROR - Failed to connect to mysql
+2025-08-23 18:09:15,764 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 18:09:17,835 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000026A15933750>
+2025-08-23 18:09:17,836 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 18:09:17,836 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 18:09:17,836 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 20:06:30,864 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 20:06:30,865 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 20:06:30,865 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 20:06:30,865 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 20:06:30,865 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 20:06:30,865 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 20:06:30,865 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 20:06:30,865 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 20:06:30,888 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 20:06:30,888 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 20:06:30,961 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 20:06:30,962 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 20:06:30,977 - logger - INFO - Setting up connections...
+2025-08-23 20:06:30,977 - logger - INFO - Setting up connections...
+2025-08-23 20:06:31,020 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 20:06:31,020 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 20:06:31,021 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 20:06:31,021 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 20:06:31,021 - logger - ERROR - Failed to connect to mysql
+2025-08-23 20:06:31,021 - logger - ERROR - Failed to connect to mysql
+2025-08-23 20:06:33,574 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 20:06:33,772 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000023666B23750>
+2025-08-23 20:06:33,772 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 20:06:33,772 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 20:06:33,773 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 20:13:12,586 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 20:13:12,587 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 20:13:12,587 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 20:13:12,587 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 20:13:12,587 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 20:13:12,587 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 20:13:12,587 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 20:13:12,587 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 20:13:12,619 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 20:13:12,619 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 20:13:12,734 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 20:13:12,735 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 20:13:12,753 - logger - INFO - Setting up connections...
+2025-08-23 20:13:12,753 - logger - INFO - Setting up connections...
+2025-08-23 20:13:12,776 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 20:13:12,776 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 20:13:12,777 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 20:13:12,777 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 20:13:12,777 - logger - ERROR - Failed to connect to mysql
+2025-08-23 20:13:12,777 - logger - ERROR - Failed to connect to mysql
+2025-08-23 20:13:15,260 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 20:13:15,321 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001CB8B8F3750>
+2025-08-23 20:13:15,322 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 20:13:15,322 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 20:13:15,323 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 20:15:24,720 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 20:15:24,721 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 20:15:24,721 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 20:15:24,721 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 20:15:24,721 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 20:15:24,721 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 20:15:24,721 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 20:15:24,721 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 20:15:24,740 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 20:15:24,740 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 20:15:24,838 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 20:15:24,840 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 20:15:24,853 - logger - INFO - Setting up connections...
+2025-08-23 20:15:24,853 - logger - INFO - Setting up connections...
+2025-08-23 20:15:24,858 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 20:15:24,858 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 20:15:24,859 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 20:15:24,859 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 20:15:24,860 - logger - ERROR - Failed to connect to mysql
+2025-08-23 20:15:24,860 - logger - ERROR - Failed to connect to mysql
+2025-08-23 20:15:24,902 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 20:15:24,912 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x0000028124DF3750>
+2025-08-23 20:15:24,912 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 20:15:24,912 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 20:15:24,913 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-23 20:18:36,306 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-23 20:18:36,307 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-23 20:18:36,307 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-23 20:18:36,307 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-23 20:18:36,307 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-23 20:18:36,307 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-23 20:18:36,307 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-23 20:18:36,307 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-23 20:18:36,417 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 20:18:36,417 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-23 20:18:36,528 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 20:18:36,529 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-23 20:18:36,603 - logger - INFO - Setting up connections...
+2025-08-23 20:18:36,603 - logger - INFO - Setting up connections...
+2025-08-23 20:18:36,612 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 20:18:36,612 - logger - INFO - Creating tool for connection: mysql
+2025-08-23 20:18:36,614 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 20:18:36,614 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-23 20:18:36,614 - logger - ERROR - Failed to connect to mysql
+2025-08-23 20:18:36,614 - logger - ERROR - Failed to connect to mysql
+2025-08-23 20:18:36,704 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-23 20:18:36,705 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000002270FFE3750>
+2025-08-23 20:18:36,706 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-23 20:18:36,706 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-23 20:18:36,706 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-08-24 11:55:29,556 - mcp.server.lowlevel.server - DEBUG - Initializing server 'agentmode'
+2025-08-24 11:55:29,557 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-08-24 11:55:29,557 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-08-24 11:55:29,557 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-08-24 11:55:29,557 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-08-24 11:55:29,557 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-08-24 11:55:29,557 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-08-24 11:55:29,557 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-08-24 11:55:29,582 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-24 11:55:29,582 - logger - INFO - Parsed arguments: {'mysql:host': 'host', 'mysql:port': 'port', 'mysql:username': 'username', 'mysql:password': 'password', 'mysql:database_name': 'database_name', 'mysql:read_only': True}
+2025-08-24 11:55:29,686 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-24 11:55:29,687 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-24 11:55:29,706 - logger - INFO - Setting up connections...
+2025-08-24 11:55:29,706 - logger - INFO - Setting up connections...
+2025-08-24 11:55:29,738 - logger - INFO - Creating tool for connection: mysql
+2025-08-24 11:55:29,738 - logger - INFO - Creating tool for connection: mysql
+2025-08-24 11:55:29,741 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-24 11:55:29,741 - logger - ERROR - Failed to create database connection: invalid literal for int() with base 10: 'port'
+2025-08-24 11:55:29,741 - logger - ERROR - Failed to connect to mysql
+2025-08-24 11:55:29,741 - logger - ERROR - Failed to connect to mysql
+2025-08-24 11:55:35,801 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2025-08-24 11:55:35,816 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001FFE6283750>
+2025-08-24 11:55:35,816 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-08-24 11:55:35,817 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-08-24 11:55:35,817 - mcp.server.lowlevel.server - DEBUG - Response sent

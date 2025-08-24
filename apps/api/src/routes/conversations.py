@@ -1,11 +1,13 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException, status, Request
 from sqlalchemy.orm import Session
 from chromadb import Client as ChromaClient
 from typing import List
 
-from models.conversation import Conversation as ConversationModel
-from db.session import get_db, get_chroma_client
-from db.repository import ConversationRepository
+# FIX: Changed the model import to be relative (from .models -> from ..models)
+from ..models.conversation import Conversation as ConversationModel, SearchQuery, SearchResult
+
+from ..db.session import get_db, get_chroma_client
+from ..db.repository import ConversationRepository
 
 router = APIRouter()
 repo = ConversationRepository()

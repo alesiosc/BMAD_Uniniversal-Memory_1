@@ -1,7 +1,11 @@
+# apps/api/src/db/repository.py
+
 import uuid
+import json
 from sqlalchemy.orm import Session
+from sqlalchemy import desc
 from chromadb import Client as ChromaClient
-from models.conversation import Conversation as ConversationModel
+from ..models.conversation import Conversation as ConversationModel
 from .session import Conversation as ConversationSchema
 
 class ConversationRepository:
@@ -22,7 +26,8 @@ class ConversationRepository:
         full_text = self._concatenate_content(conversation)
         embedding = model.encode(full_text).tolist()
         
-        content_dict = [turn.dict() for turn in conversation.content]
+        # FIX: Use model_dump() instead of the deprecated dict()
+        content_dict = [turn.model_dump() for turn in conversation.content]
         
         collection = chroma_client.get_or_create_collection(name="conversations")
         collection.add(
@@ -50,12 +55,14 @@ class ConversationRepository:
         metadata = chroma_result['metadatas'][0]
         content_json = metadata.get("content", "[]")
         
-        return {
+        # FIX: Return a proper Pydantic model for type safety
+        conversation_data = {
             "id": db_conversation.id,
             "source": db_conversation.source,
             "timestamp": db_conversation.timestamp,
             "content": json.loads(content_json)
         }
+        return ConversationModel.model_validate(conversation_data)
 
     def search_conversations(self, chroma_client: ChromaClient, query: str, model, top_k: int = 5):
         collection = chroma_client.get_or_create_collection(name="conversations")

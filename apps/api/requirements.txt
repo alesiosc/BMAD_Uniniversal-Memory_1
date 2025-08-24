@@ -1,6 +1,8 @@
 fastapi
 uvicorn
-duckdb
-google-generativeai
-python-dotenv
+sqlalchemy
+chromadb
+sentence-transformers
 pydantic-settings
+google-generativeai
+pandas

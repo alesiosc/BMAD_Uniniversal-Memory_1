@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { useConversationStore } from '../../stores/conversationStore';
 import { Conversation } from 'shared-types';
+import { open } from '@tauri-apps/api/dialog';
 
 export const ImportButton: React.FC = () => {
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -13,7 +14,7 @@ export const ImportButton: React.FC = () => {
     const reader = new FileReader();
     reader.onload = async (e) => {
       const text = e.target?.result as string;
-      const turns = text.split('\n').map(line => ({
+      const turns = text.split('\\n').map(line => ({
         speaker: line.toLowerCase().startsWith('user:') ? 'user' : 'ai',
         text: line.replace(/^(User:|AI:)\s*/i, ''),
       }));
@@ -23,7 +24,7 @@ export const ImportButton: React.FC = () => {
         timestamp: Math.floor(Date.now() / 1000),
         content: turns,
       };
-      
+
       try {
         await addConversation(newConversation);
         alert('Import successful!');

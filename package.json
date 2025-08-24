@@ -1,13 +1,49 @@
 {
-  "name": "universal-memory-monorepo-root",
+  "name": "universal-memory-monorepo",
   "version": "1.0.0",
   "private": true,
-  "description": "Root for the Universal Memory project. NOTE: Workspaces are disabled due to system permissions.",
+  "description": "The root of the Universal Memory monorepo.",
   "scripts": {
-    "dev:desktop": "cd apps/desktop && npm run dev",
-    "dev:api": "cd apps/api/src && python -m uvicorn main:app --reload --port 8000"
+    "dev": "cd apps/desktop && pnpm dev",
+    "dev:desktop": "npm run dev -w apps/desktop",
+    "dev:api": "uvicorn apps.api.src.main:app --reload --port 8000",
+    "eslint": "eslint \"**/*.{js,cjs,ts,mjs,jsx,tsx}\"",
+    "lint": "npm run eslint",
+    "lintfix": "npm run eslint -- --fix",
+    "postlint": "template-oss-check",
+    "template-oss-apply": "template-oss-apply --force",
+    "snap": "tap",
+    "test": "tap",
+    "posttest": "npm run lint",
+    "test-all": "npm run test -ws -iwr --if-present",
+    "lint-all": "npm run lint -ws -iwr --if-present"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.0"
+  },
+  "author": "GitHub Inc.",
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alesiosc/BMAD_Uniniversal-Memory_1.git"
+  },
+  "templateOSS": {
+    "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
+    "version": "4.24.3"
+  },
+  "tap": {
+    "test-ignore": "^(apps)/",
+    "nyc-arg": [
+      "--exclude",
+      "apps/**",
+      "--exclude",
+      "tap-snapshots/**"
+    ]
+  }
 }

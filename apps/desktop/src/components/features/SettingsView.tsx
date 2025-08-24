@@ -16,7 +16,6 @@ export const SettingsView: React.FC = () => {
         multiple: false,
         title: "Select Data Directory",
       });
-
       if (typeof selected === 'string' && selected) {
         setDataDirectory(selected);
       }

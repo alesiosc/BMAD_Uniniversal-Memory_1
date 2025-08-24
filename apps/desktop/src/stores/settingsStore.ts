@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-interface SettingsState {
+export interface SettingsState {
   dataDirectory: string | null;
   hasCompletedOnboarding: boolean;
   setDataDirectory: (path: string) => void;

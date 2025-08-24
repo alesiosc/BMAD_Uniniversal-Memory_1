@@ -25,9 +25,9 @@ export const OnboardingView: React.FC = () => {
             <div>
               <h2 className="font-semibold">Install the Browser Extension</h2>
               <p className="text-sm text-gray-400">The extension is required to automatically capture conversations from the web.</p>
-              <a 
+              <a
                 href="https://chrome.google.com/webstore" // Placeholder URL
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2 text-sm"
               >

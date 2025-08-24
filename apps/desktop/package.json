@@ -1,29 +1,58 @@
 {
-  "name": "desktop",
+  "name": "desktop-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "eslint": "eslint \"**/*.{js,cjs,ts,mjs,jsx,tsx}\"",
+    "lint": "npm run eslint",
+    "lintfix": "npm run eslint -- --fix",
+    "postlint": "template-oss-check",
+    "template-oss-apply": "template-oss-apply --force",
+    "snap": "tap",
+    "test": "tap",
+    "posttest": "npm run lint"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
-    "@tauri-apps/api": "^2.7.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^7.7.1",
-    "zustand": "^5.0.7"
+    "@tauri-apps/api": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.8.2",
+    "zustand": "^4.0.0"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^2.7.1",
-    "@types/node": "^24.2.0",
-    "@vitejs/plugin-react": "^4.7.0",
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11",
-    "typescript": "^5.9.2",
-    "vite": "^7.0.6"
+    "@tauri-apps/cli": "^1.5.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0"
+  },
+  "author": "GitHub Inc.",
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alesiosc/BMAD_Uniniversal-Memory_1.git",
+    "directory": "apps/desktop"
+  },
+  "templateOSS": {
+    "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
+    "version": "4.24.3"
+  },
+  "tap": {
+    "nyc-arg": [
+      "--exclude",
+      "tap-snapshots/**"
+    ]
   }
 }

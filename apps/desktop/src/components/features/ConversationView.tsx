@@ -31,7 +31,7 @@ export const ConversationView: React.FC = () => {
         await deleteConversation(id);
         navigate('/'); // Navigate back to the main feed on success
       } catch (error) {
-          alert("Failed to delete memory. Please try again.");
+        alert("Failed to delete memory. Please try again.");
       }
     }
   };

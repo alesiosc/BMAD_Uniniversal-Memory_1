@@ -29,16 +29,15 @@ const ModelCard: React.FC<{ model: ModelComparison }> = ({ model }) => {
   );
 };
 
-
 export const ModelComparisonView: React.FC = () => {
   return (
     <div className="h-full overflow-y-auto p-4 md:p-6">
-       <h2 className="text-2xl font-bold text-white mb-6">AI Model Comparison</h2>
-       <div className="space-y-6">
+      <h2 className="text-2xl font-bold text-white mb-6">AI Model Comparison</h2>
+      <div className="space-y-6">
         {(modelData as ModelComparison[]).map(model => (
           <ModelCard key={model.name} model={model} />
         ))}
-       </div>
+      </div>
     </div>
   );
 };
